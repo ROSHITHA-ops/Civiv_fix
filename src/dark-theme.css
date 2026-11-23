@@ -1,0 +1,470 @@
+:root {
+  color: #e6edf5;
+  background: #0c1521;
+  --navy: #e7eef6;
+  --navy-2: #d6e1ec;
+  --teal: #42b6a4;
+  --teal-dark: #36a593;
+  --muted: #9aaabd;
+  --line: #263648;
+  --paper: #152232;
+  --bg: #0c1521;
+}
+
+body,
+.portal-shell,
+.public-shell,
+.public-issues-page,
+.details-page {
+  background: #0c1521;
+  color: #dce5ef;
+}
+
+.landing {
+  background: #101c2a;
+  color: #e4ecf4;
+}
+
+.landing-nav,
+.landing-footer,
+.auth-form-side,
+.public-shell-header {
+  background: #111e2d;
+  border-color: #263648;
+}
+
+.landing-nav .brand,
+.landing-nav .nav-login,
+.landing-nav nav,
+.landing-footer .brand {
+  color: #e4ecf4;
+}
+
+.landing-nav nav a:hover,
+.nav-login:hover,
+.footer-links a:hover {
+  color: #62c9b6;
+}
+
+.hero h1,
+.section-heading h2,
+.community-copy h2,
+.impact-intro h2,
+.step-card h3,
+.category-card h3,
+.home-issue-copy strong {
+  color: #e6edf5;
+}
+
+.hero-lead,
+.section-heading p,
+.community-copy > p,
+.step-card p,
+.category-card p,
+.home-issue-copy > span,
+.home-issue-copy small {
+  color: #a1afbf;
+}
+
+.hero h1 em,
+.cta-section h2 em {
+  color: #64cbb8;
+}
+
+.impact-strip,
+.category-section,
+.quote-band {
+  background: #142333;
+}
+
+.impact-intro .eyebrow,
+.hero-kicker {
+  color: #8fc7b8;
+}
+
+.impact-stat {
+  border-color: #2b3d4d;
+}
+
+.impact-stat strong,
+.impact-stat span {
+  color: #e3ebf2;
+}
+
+.impact-stat small {
+  color: #9eacb8;
+}
+
+.step-card,
+.category-card,
+.home-issues,
+.floating-report,
+.floating-stat {
+  background: #19293a;
+  border-color: #2a3b4d;
+  color: #dce5ef;
+}
+
+.step-card.featured {
+  background: #1b3543;
+  border-color: #274c52;
+}
+
+.step-number span,
+.category-blue .category-symbol,
+.category-green .category-symbol,
+.category-gold .category-symbol,
+.category-purple .category-symbol {
+  background: #233649;
+  color: #70cbbb;
+}
+
+.home-issue-row {
+  border-color: #29394a;
+}
+
+.home-issue-footer,
+.community-proof {
+  color: #a6b3bf;
+}
+
+.quote-band blockquote {
+  color: #d0e0df;
+}
+
+.auth-page {
+  background: #0c1521;
+}
+
+.auth-visual {
+  background: #142b43;
+}
+
+.auth-form-side {
+  color: #e4ecf4;
+}
+
+.auth-form-wrap h2,
+.auth-form label {
+  color: #e5edf5;
+}
+
+.auth-subtitle,
+.auth-switch,
+.auth-side-foot {
+  color: #a1afbd;
+}
+
+.auth-form input,
+.field-label input,
+.field-label textarea,
+.field-label select,
+.comment-form input,
+.filters-bar > select,
+.search-field,
+.table-select,
+.status-select,
+.priority-select {
+  color: #e0e9f2;
+  background: #111e2d;
+  border-color: #344658;
+}
+
+.auth-form input::placeholder,
+.field-label input::placeholder,
+.field-label textarea::placeholder,
+.comment-form input::placeholder,
+.search-field input::placeholder {
+  color: #8091a3;
+}
+
+.auth-form input:focus,
+.field-label input:focus,
+.field-label textarea:focus,
+.field-label select:focus {
+  border-color: #42b6a4;
+  box-shadow: 0 0 0 3px #42b6a41c;
+}
+
+.demo-hint {
+  background: #172a35;
+  border-color: #2c4b4c;
+  color: #a9c5bd;
+}
+
+.demo-hint b {
+  color: #d0e4dc;
+}
+
+.auth-disclaimer {
+  color: #9aa8b5;
+}
+
+.portal-header,
+.panel,
+.stat-card,
+.issue-card {
+  background: #152232;
+  border-color: #27384a;
+  color: #dce5ef;
+}
+
+.portal-header {
+  box-shadow: 0 1px 0 #263648;
+}
+
+.breadcrumb,
+.breadcrumb b,
+.user-pill-name strong,
+.page-title h1,
+.panel-heading h2,
+.stat-value,
+.table-issue,
+.data-table td,
+.quick-action strong,
+.detail-side h3,
+.timeline-panel h3,
+.details-heading h1,
+.details-fact b,
+.details-id,
+.comment-author strong,
+.issue-title h3,
+.profile-card h2,
+.profile-form .panel-heading h2,
+.settings-card h2 {
+  color: #e0e8f0;
+}
+
+.page-title p,
+.stat-label,
+.stat-note,
+.panel-heading p,
+.data-table th,
+.data-table td small,
+.quick-action small,
+.notification-row p,
+.notification-row small,
+.quiet-note,
+.field-label small,
+.issue-location,
+.issue-meta,
+.details-description,
+.detail-fact span,
+.timeline-item small,
+.settings-card > p,
+.page-footnote {
+  color: #9aa9b8;
+}
+
+.portal-footer {
+  border-color: #263648;
+  color: #8e9eae;
+}
+
+.data-table th,
+.data-table td,
+.notification-row,
+.comment-row,
+.detail-fact,
+.admin-quick-link {
+  border-color: #29394a;
+}
+
+.data-table td {
+  color: #bdc9d5;
+}
+
+.status-badge {
+  filter: saturate(.9) brightness(.93);
+}
+
+.quick-action,
+.detail-location,
+.upload-zone,
+.comment-form input,
+.profile-role {
+  background: #111e2d;
+  border-color: #2d4052;
+}
+
+.quick-action:hover,
+.upload-zone:hover {
+  background: #172a38;
+  border-color: #398e83;
+}
+
+.quick-action-icon,
+.quick-action-icon.secondary,
+.notification-icon {
+  background: #243648;
+  color: #75c9b9;
+}
+
+.report-tip,
+.profile-card,
+.profile-form,
+.report-main,
+.management-panel,
+.citizens-panel,
+.notification-page,
+.settings-card,
+.timeline-panel,
+.detail-side,
+.comments-panel {
+  background: #152232;
+}
+
+.tip-step,
+.profile-note,
+.settings-meta,
+.area-rank {
+  border-color: #2a3b4d;
+}
+
+.tip-step strong,
+.settings-meta b,
+.area-rank-name strong,
+.area-rank > b,
+.resolution-key b {
+  color: #d1dce6;
+}
+
+.tip-step small,
+.privacy-note p {
+  color: #a1b0bd;
+}
+
+.privacy-note {
+  background: #19333a;
+}
+
+.upload-zone {
+  color: #dce5ef;
+}
+
+.search-field input {
+  color: #dce5ef;
+}
+
+.result-count,
+.management-count,
+.public-back,
+.back-link {
+  color: #a0afbd;
+}
+
+.issue-card:hover {
+  box-shadow: 0 12px 30px #00000030;
+}
+
+.issue-image-link,
+.details-image {
+  background: #223244;
+}
+
+.details-id {
+  color: #a2b0bc;
+}
+
+.detail-location {
+  color: #56bca9;
+}
+
+.detail-location strong,
+.detail-fact b,
+.timeline-item strong {
+  color: #d0dae4;
+}
+
+.detail-location span,
+.comment-row p {
+  color: #9eacb9;
+}
+
+.timeline-item:not(:last-child)::before {
+  background: #344759;
+}
+
+.timeline-dot {
+  background: #152232;
+  border-color: #607181;
+}
+
+.profile-avatar,
+.avatar {
+  background: #24413f;
+  color: #91d6c6;
+}
+
+.officer-avatar {
+  background: #20403e;
+  color: #9be0ce;
+}
+
+.officer-card p,
+.officer-card > small,
+.citizen-cell strong {
+  color: #a9b7c3;
+}
+
+.donut-center strong {
+  fill: #e0e8f0;
+  color: #e0e8f0;
+}
+
+.donut-center small,
+.category-legend > div,
+.rank-number,
+.area-rank-name > div {
+  color: #a4b1bd;
+}
+
+.area-rank-name > div {
+  background: #293b4b;
+}
+
+.resolution-circle::before {
+  background: #152232;
+}
+
+.resolution-circle strong {
+  color: #e1eaf2;
+}
+
+.resolution-circle small,
+.resolution-key span {
+  color: #a3b0bb;
+}
+
+.public-shell > footer {
+  border-color: #263648;
+  color: #9ba9b6;
+}
+
+.public-page-nav {
+  border-color: #28394a;
+}
+
+.public-page-nav > span,
+.public-shell-header > a:last-child {
+  color: #87cfc0;
+}
+
+.not-found h1 {
+  color: #e2eaf2;
+}
+
+.not-found p {
+  color: #a3b0bc;
+}
+
+.route-loading {
+  background: #0c1521;
+  color: #a5b2bf;
+}
+
+@media (max-width: 560px) {
+  .sidebar {
+    background: #132541;
+  }
+}
